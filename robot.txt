@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/EMGPSD/wede5020-2026-part-3-st10524760/sitemap.xml

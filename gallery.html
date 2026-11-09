@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soweto Global Solutions | Showcase Gallery</title>
+<link rel="stylesheet" href="assets/style/main.css">
+
+<meta property="og:title" content="Soweto Global Solutions | IT Support & Training Gauteng">
+<meta property="og:description" content="Professional desktop support, network administration, and practical MS Office training across Gauteng.">
+<meta property="og:image" content="https://github.com/EMGPSD/wede5020-2026-part-3-st10524760/assets/images/Logo-Design.png">
+<meta property="og:type" content="website">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+<div class="logo">
+<a href="index.html">
+<img src="assets/images/Logo-Design.png" alt="SGS Logo">
+<h1>SGS</h1>
+</a>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="gallery.html" class="active">Gallery</a></li>
+<li><a href="contact.html">Contact us</a></li>
+<li class="nav-cta"><a href="enquiry.html">Request Quote</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="page-header">
+<h1>Our Team at Work & Training Showcase</h1>
+<p>Explore moments from our practical MS Office workshops, certification prep sessions, and IT support operations across Gauteng.</p>
+</section>
+
+<!-- DYNAMIC SEARCH & CATEGORY FILTERING CONTROLS -->
+<section class="gallery-controls">
+  <div class="search-box">
+    <input type="text" id="gallery-search" placeholder="Search workshops, IT support, documentation...">
+  </div>
+
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="workshops">Workshops</button>
+    <button class="filter-btn" data-filter="it-support">IT Support</button>
+    <button class="filter-btn" data-filter="documentation">Documentation</button>
+  </div>
+  
+  <div id="no-results" style="display: none; text-align: center; color: #4B5563; font-weight: 600; margin-top: 1rem;">
+    No showcase items found matching your filter criteria.
+  </div>
+</section>
+
+<div class="gallery-grid" id="gallery-grid">
+  
+  <!-- Gallery Cards -->
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/pexels-rdne-7648042.png" alt="MS Word Formatting Workshop" class="lightbox-trigger">
+    <div class="gallery-caption">MS Word Formatting Workshop</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/poddar-group-of-institutions-d2wtxLJQbXA-unsplash.jpg" alt="Certification Prep Group" class="lightbox-trigger">
+    <div class="gallery-caption">Certification Prep Group</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/marwen-larafa-_96edJ8IVC4-unsplash.jpg" alt="Excel Advanced Data Seminar" class="lightbox-trigger">
+    <div class="gallery-caption">Excel Advanced Data Seminar</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-divinetechygirl-1181354.jpg" alt="On-Site IT Helpdesk Session" class="lightbox-trigger">
+    <div class="gallery-caption">On-Site IT Helpdesk Session</div>
+  </div>
+
+  <div class="gallery-card" data-category="documentation">
+    <img src="assets/images/pexels-freestockpro-92752222.png" alt="SOP Documentation Audit" class="lightbox-trigger">
+    <div class="gallery-caption">SOP Documentation Audit</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support"> 
+    <img src="assets/images/valentin-lacoste-fJTyegEd-6k-unsplash.jpg" alt="Server Rack Maintenance" class="lightbox-trigger">
+    <div class="gallery-caption">Server Rack Maintenance</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/campaign-creator-gMsnXqILjp4-unsplash.png" alt="Outlook Training" class="lightbox-trigger">
+    <div class="gallery-caption">Outlook Hygiene Training</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/pexels-mart-production-8472880.jpg" alt="Mock Exam Prep Session" class="lightbox-trigger">
+    <div class="gallery-caption">Mock Exam Prep Session</div>
+  </div>
+
+  <div class="gallery-card" data-category="documentation">
+    <img src="assets/images/pexels-luis-sevilla-252657-34221175.jpg" alt="Workplace Skill Gap Analysis" class="lightbox-trigger">
+    <div class="gallery-caption">Workplace Skill Gap Analysis</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-diva-plavalaguna-6150524.png" alt="Hardware Diagnosis Workshop" class="lightbox-trigger">
+    <div class="gallery-caption">Hardware Diagnosis Workshop</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-pavel-danilyuk-8761327.jpg" alt="Team Strategy Session" class="lightbox-trigger">
+    <div class="gallery-caption">Team Strategy Session</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/product-school-XZkk5xT8Xrk-unsplash.jpg" alt="Outlook & Word Group Class" class="lightbox-trigger">
+    <div class="gallery-caption">Outlook & Word Group Class</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/quilia-1-aA2Fadydc-unsplash.png" alt="Pivot Tables Live Demo" class="lightbox-trigger">
+    <div class="gallery-caption">Pivot Tables Live Demo</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-silverkblack-39190496.jpg" alt="Remote Desktop Demo" class="lightbox-trigger">
+    <div class="gallery-caption">Remote Desktop Demo</div>
+  </div>
+
+  <div class="gallery-card" data-category="documentation">
+    <img src="assets/images/pexels-wolfart-34676331.jpg" alt="Virtual IT Support" class="lightbox-trigger">
+    <div class="gallery-caption">Custom Template Design</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-divinetechygirl-1181745.jpg" alt="Virtual meeting helpdesk" class="lightbox-trigger">
+    <div class="gallery-caption">Multi-Branch LAN Setup</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/pexels-rdne-7648054.jpg" alt="Certification Criteria Review" class="lightbox-trigger">
+    <div class="gallery-caption">Certification Criteria Review</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/pexels-kampus-7983551.jpg" alt="Computer Literacy Assessment" class="lightbox-trigger">
+    <div class="gallery-caption">Computer Literacy Assessment</div>
+  </div>
+
+  <div class="gallery-card" data-category="workshops">
+    <img src="assets/images/pexels-jep-gambardella-7689853.jpg" alt="MS Word Formatting Workshop" class="lightbox-trigger">
+    <div class="gallery-caption">Digital Literacy Briefing</div>
+  </div>
+
+  <div class="gallery-card" data-category="it-support">
+    <img src="assets/images/pexels-silverkblack-39204813.jpg" alt="On-Site Network Audit" class="lightbox-trigger">
+    <div class="gallery-caption">On-Site Network Audit</div>
+  </div>
+
+</div>
+</main>
+
+<footer>
+<div class="footer-container">
+<div class="footer-col">
+<h3>Company</h3>
+<p>Address Street<br>22 Southwest, 54,<br>Gauteng</p>
+</div>
+
+<div class="footer-col">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="services.html">Services</a></li>
+<li><a href="enquiry.html">Resources</a></li>
+<li><a href="about.html">FAQs</a></li>
+</ul>
+</div>
+
+<div class="footer-col">
+<h3>Contact</h3>
+<p>Phone: (+27) 81 536 8139</p>
+<p>Email: info@sowetoglobal.co.za</p>
+<p><a href="contact.html">Support Ticket Portal</a></p>
+</div>
+
+<div class="footer-col">
+<h3>Legal</h3>
+<ul>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Terms</a></li>
+<li><a href="https://github.com/EMGPSD/wede5020-2026-part-3-st10524760" target="_blank">GitHub Repo Link</a></li>
+</ul>
+</div>
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 Soweto Global Solutions. All rights reserved.</p>
+</div>
+</footer>
+
+<!-- Lightbox Modal Container -->
+<div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="lightbox-content">
+        <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close Image Modal">&times;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged View">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+</div>
+
+<!-- ALL-IN-ONE EMBEDDED SCRIPT FOR GALLERY & LIGHTBOX -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- 1. LIGHTBOX MODAL LOGIC ---
+    const lightbox = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-img');
+    const modalCaption = document.getElementById('lightbox-caption');
+    const closeBtn = document.getElementById('lightbox-close-btn');
+    const triggers = document.querySelectorAll('.lightbox-trigger');
+
+    triggers.forEach(img => {
+        img.addEventListener('click', () => {
+            modalImg.src = img.src;
+            const card = img.closest('.gallery-card');
+            if (card && card.querySelector('.gallery-caption')) {
+                modalCaption.textContent = card.querySelector('.gallery-caption').textContent;
+            } else {
+                modalCaption.textContent = img.alt || 'Soweto Global Solutions Showcase';
+            }
+            lightbox.classList.add('active');
+            lightbox.setAttribute('aria-hidden', 'false');
+        });
+    });
+
+    function closeLightbox() {
+        if (lightbox) {
+            lightbox.classList.remove('active');
+            lightbox.setAttribute('aria-hidden', 'true');
+        }
+    }
+
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeLightbox);
+    }
+
+    window.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+
+    window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        }
+    });
+
+
+    // --- 2. SEARCH & CATEGORY FILTERING LOGIC ---
+    const searchInput = document.getElementById('gallery-search');
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const galleryCards = document.querySelectorAll('.gallery-card');
+    const noResultsMsg = document.getElementById('no-results');
+
+    if (galleryCards.length > 0) {
+        let activeCategory = 'all';
+        let searchQuery = '';
+
+        function filterGallery() {
+            let visibleCount = 0;
+
+            galleryCards.forEach(card => {
+                const cardCategory = card.getAttribute('data-category');
+                const captionEl = card.querySelector('.gallery-caption');
+                const imgEl = card.querySelector('img');
+                
+                const captionText = captionEl ? captionEl.textContent.toLowerCase() : '';
+                const altText = imgEl && imgEl.alt ? imgEl.alt.toLowerCase() : '';
+
+                const matchesCategory = (activeCategory === 'all' || cardCategory === activeCategory);
+                const matchesSearch = (searchQuery === '' || captionText.includes(searchQuery) || altText.includes(searchQuery));
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            if (noResultsMsg) {
+                noResultsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+            }
+        }
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                activeCategory = btn.getAttribute('data-filter');
+                filterGallery();
+            });
+        });
+
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value.toLowerCase().trim();
+                filterGallery();
+            });
+        }
+    }
+
+});
+</script>
+
+</body>
+</html>
